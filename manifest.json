@@ -1,19 +1,11 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <meta name="theme-color" content="#0D1B2A" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="apple-mobile-web-app-title" content="Plano Felipe" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/icon-192.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Plano de Saúde · Felipe</title>
-    <style>* { box-sizing: border-box; margin: 0; padding: 0; } body { background: #0D1B2A; }</style>
-  </head>
-  <body>
-    <noscript>Ative o JavaScript para usar este app.</noscript>
-    <div id="root"></div>
-  </body>
-</html>
+{
+  "short_name": "Plano Felipe",
+  "name": "Plano de Saúde - Felipe Bonini",
+  "icons": [
+    { "src": "icon-192.png", "type": "image/png", "sizes": "192x192" }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0D1B2A",
+  "background_color": "#0D1B2A"
+}
